@@ -1,0 +1,497 @@
+/**
+ * Admin HostJane menu icon fix
+ */
+#toplevel_page_hostjane-admin-index img {
+    width: 20px !important;
+    padding: 7px !important;
+    opacity: 0.9 !important;
+}
+
+/**
+ * Admin styles
+ */
+.hostjane-admin {
+    max-width: 1600px !important;
+    background-color: #fff !important;
+    border: 1px solid #c3c4c7 !important;
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+}
+
+.hostjane-admin-footer {
+    max-width: 1600px !important;;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+}
+
+.hostjane-admin p, .hostjane-admin-footer p {
+    font-size: 16px !important;
+}
+
+.hostjane-admin-footer-container {
+    border-top: solid 1px #e1e1e1 !important;
+    margin-top: 60px !important;
+    padding-top: 20px !important;
+    font-size: 14px !important;
+}
+
+.hostjane-admin-footer-container .copyright-text {
+    display: block !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    font-size: 14px !important;
+    color: #6d6a8a !important;
+}
+
+.hostjane-admin-footer-container-links {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.hostjane-admin-footer-social-links {
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.hostjane-admin-footer-container-links a, .hostjane-admin-footer-social-links a {
+    font-style: normal !important;
+    font-weight: 800 !important;
+    line-height: normal !important;
+    font-size: 12px !important;
+    margin-left: 15px !important;
+    color: #6d6a8a !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.hostjane-admin-footer-container-links a:hover {
+    color: #135e96 !important;
+}
+
+.hostjane-admin-header {
+    padding: 15px !important;
+    border-bottom: 1px solid #c3c4c7 !important;
+}
+
+.hostjane-admin-header h2 {
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+.hostjane-admin-header p {
+    margin-top: 0 !important;
+    margin-bottom: 0px !important;
+    color: #666666 !important;
+}
+
+.hostjane-admin-container {
+    display: flex !important;
+}
+
+.hostjane-admin-settings {
+    width: 40% !important;
+    max-width: 600px !important;
+    padding: 15px !important;
+}
+
+.hostjane-admin-settings .legend {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+}
+
+.hostjane-admin-settings .help {
+    display: inline-block;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.hostjane-admin-settings .help-danger {
+    display: none;
+    color: red !important;
+    margin-bottom: 0px !important;
+}
+
+.hostjane-admin-settings input[type=text], .hostjane-admin-settings input[type=number], .hostjane-admin-settings select {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 5px 10px !important;
+}
+
+.hostjane-admin-settings .mb {
+    margin-bottom: 25px !important;
+}
+
+.hostjane-admin-settings .username-container {
+    position: relative !important;
+}
+
+#studio_avatar {
+    position: absolute !important;
+    top: 5px !important;
+    left: 6px !important;
+    display: none !important;
+}
+
+.hostjane-admin-settings .hostjane-user-avatar {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+}
+
+.username-container.has-avatar #studio_avatar {
+    display: block !important;
+}
+
+.username-container.has-avatar input {
+    padding-left: 40px !important;
+    height: 40px !important;
+}
+
+.hostjane-admin-settings .colors {
+    display: flex !important;
+    margin-top: 10px !important;
+}
+
+.hostjane-admin-settings .colors .hostjane-color {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100% !important;
+    border: solid 1px transparent !important;
+    margin-right: 12px !important;
+    margin-left: 3px !important;
+    cursor: pointer !important;
+    opacity: 0.9 !important;
+}
+
+.hostjane-admin-settings .colors .hostjane-color:hover, .hostjane-admin-settings .colors .hostjane-color.selected {
+    opacity: 1 !important;
+    border: solid 1px #8c8f94 !important;
+}
+
+.hostjane-admin-settings .colors .hostjane-color.selected::before {
+    content: "\2713" !important;
+    display: block !important;
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    padding-left: 6px !important;
+    color: #FFF !important;
+}
+
+.hostjane-admin-settings .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 12px !important;
+    border: solid 1px #e1e1e1 !important;
+    border-radius: 4px; color: #FFF !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    opacity: 0.9 !important;
+}
+
+.hostjane-admin-settings .btn:hover {
+    opacity: 1 !important;
+}
+
+.hostjane-admin-preview {
+    width: 60% !important;
+    max-width: calc(100% - 40%) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    border-left: 1px solid #c3c4c7 !important;
+}
+
+.hostjane-admin-preview iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/**
+ * Front-end plugin styles
+ */
+.hostjane-plugin {
+    position: fixed !important;
+}
+
+.hostjane-plugin-container {
+    display: none !important;
+    background-color: #fff !important;
+    border: solid 1px #e1e1e1 !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    position: relative !important;
+}
+
+.hostjane-plugin-container.opened {
+    display: block !important;
+}
+
+.hostjane-plugin-container:before, .hostjane-plugin-container:after {
+    content: "" !important;
+    position: absolute !important;
+    display: block !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-width: 10px 12px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    z-index: 1001 !important;
+    right: 25px !important;
+    left: auto !important;
+}
+
+.hostjane-plugin-container.left-sided:before, .hostjane-plugin-container.left-sided:after  {
+    left: 25px !important;
+    right: auto !important;
+}
+
+.hostjane-plugin-container:after {
+    bottom: -19px !important;
+    border-top-color: #fff !important;
+}
+
+.hostjane-plugin-container:before {
+    bottom: -20px !important;
+    border-top-color: #e1e1e1 !important;
+}
+
+.hostjane-plugin-container-title {
+    display: block !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+}
+
+.hostjane-tip-container-main {
+    display: flex !important;
+    border: solid 1px #e1e1e1 !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    align-items: center !important;
+}
+
+.hostjane-tip-container-main input {
+    width: 50px !important;
+    border: solid 1px #e1e1e1 !important;
+    padding: 0 8px !important;
+    line-height: 2 !important;
+    min-height: 30px !important;
+    box-shadow: 0 0 0 transparent !important;
+    border-radius: 4px !important;
+    background-color: #fff !important;
+    color: #2c3338 !important;
+    margin: 0 1px !important;
+    font-size: 14px !important;
+    color: #000 !important;
+}
+
+.hostjane-tip-container-main .x {
+    display: inline-block !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-size: 18px !important;
+    color: #a5a5a5 !important;
+}
+
+.hostjane-tip-option {
+    display: block !important;
+    border-radius: 100% !important;
+    width: 42px !important;
+    height: 42px !important;
+    line-height: 42px !important;
+    border: solid 1px #e1e1e1 !important;
+    text-align: center !important;
+    margin-right: 10px !important;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    background-color: #FFF !important;
+    font-size: 13px !important;
+}
+
+.hostjane-tip-submit {
+    display: block !important;
+    padding: 10px !important;
+    text-align: center !important;
+    border: solid 1px #e1e1e1 !important;
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    outline : none !important;
+    box-shadow: none !important;
+}
+
+.hostjane-studio-link {
+    display: block !important;
+    text-decoration: underline !important;
+    margin-top: 10px !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    outline : none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.hostjane-studio-link:hover {
+    text-decoration: underline !important;
+    border: none !important;
+    outline : none !important;
+    box-shadow: none !important;
+}
+
+#hostjane_tip_btn {
+    display: block !important;
+    width: 80px !important;
+    height: 80px !important;
+    cursor: pointer !important;
+    margin-top: 10px !important;
+}
+
+#hostjane_tip_btn .closed {
+    display: none !important;
+}
+
+#hostjane_tip_btn .opened {
+    display: block !important;
+}
+
+#hostjane_tip_btn.opened .closed {
+    display: block !important;
+}
+
+#hostjane_tip_btn.opened .opened {
+    display: none !important;
+}
+
+/**
+ * Theme styles
+ */
+.hostjane-coral {
+    background-color: #fc803f !important;
+}
+
+.hostjane-coral-theme .hostjane-tip-container-main {
+    background-color: #fff5f1 !important;
+}
+
+.hostjane-coral-theme .hostjane-tip-option, .hostjane-coral-theme .hostjane-studio-link {
+    color: #fc803f !important;
+}
+
+.hostjane-coral-theme .hostjane-tip-option.selected, .hostjane-coral-theme .hostjane-tip-submit {
+    background-color: #fc803f !important;
+    color: #FFF !important;
+}
+
+.hostjane-mediumorchid {
+    background-color: #bc5ffd !important;
+}
+
+.hostjane-mediumorchid-theme .hostjane-tip-container-main {
+    background-color: #f7ebff !important;
+}
+
+.hostjane-mediumorchid-theme .hostjane-tip-option, .hostjane-mediumorchid-theme .hostjane-studio-link {
+    color: #bc5ffd !important;
+}
+
+.hostjane-mediumorchid-theme .hostjane-tip-option.selected, .hostjane-mediumorchid-theme .hostjane-tip-submit {
+    background-color: #bc5ffd !important;
+    color: #FFF !important;
+}
+
+.hostjane-cornflowerblue {
+    background-color: #6280f8 !important;
+}
+
+.hostjane-cornflowerblue-theme .hostjane-tip-container-main {
+    background-color: #e7ecff !important;
+}
+
+.hostjane-cornflowerblue-theme .hostjane-tip-option, .hostjane-cornflowerblue-theme .hostjane-studio-link {
+    color: #6280f8 !important;
+}
+
+.hostjane-cornflowerblue-theme .hostjane-tip-option.selected, .hostjane-cornflowerblue-theme .hostjane-tip-submit {
+    background-color: #6280f8 !important;
+    color: #FFF !important;
+}
+
+.hostjane-mediumaquamarine {
+    background-color: #78d5b4 !important;
+}
+
+.hostjane-mediumaquamarine-theme .hostjane-tip-container-main {
+    background-color: #eefaf6 !important;
+}
+
+.hostjane-mediumaquamarine-theme .hostjane-tip-option, .hostjane-mediumaquamarine-theme .hostjane-studio-link {
+    color: #78d5b4 !important;
+}
+
+.hostjane-mediumaquamarine-theme .hostjane-tip-option.selected, .hostjane-mediumaquamarine-theme .hostjane-tip-submit {
+    background-color: #78d5b4 !important;
+    color: #FFF !important;
+}
+
+.hostjane-tomato {
+    background-color: #fa605e !important;
+}
+
+.hostjane-tomato-theme .hostjane-tip-container-main {
+    background-color: #ffeeee !important;
+}
+
+.hostjane-tomato-theme .hostjane-tip-option, .hostjane-tomato-theme .hostjane-studio-link {
+    color: #fa605e !important;
+}
+
+.hostjane-tomato-theme .hostjane-tip-option.selected, .hostjane-tomato-theme  .hostjane-tip-submit {
+    background-color: #fa605e !important;
+    color: #FFF !important;
+}
+
+.hostjane-violet {
+    background-color: #f370fd !important;
+}
+
+.hostjane-violet-theme .hostjane-tip-container-main {
+    background-color: #fef1ff !important;
+}
+
+.hostjane-violet-theme .hostjane-tip-option, .hostjane-violet-theme .hostjane-studio-link {
+    color: #f370fd !important;
+}
+
+.hostjane-violet-theme .hostjane-tip-option.selected, .hostjane-violet-theme  .hostjane-tip-submit {
+    background-color: #f370fd !important;
+    color: #FFF !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .hostjane-admin-settings {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .hostjane-admin-preview {
+        display: none !important;
+    }
+}
