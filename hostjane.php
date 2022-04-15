@@ -127,7 +127,7 @@ function hostjane_addAdminLink()
         'manage_options',
         'hostjane/admin/index.php',
         '',
-        plugins_url('hostjane/assets/hostjane.png'),
+        plugins_url('/assets/hostjane.png', __FILE__),
         99
     );
 }
