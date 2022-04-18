@@ -1,13 +1,4 @@
 /**
- * Admin HostJane menu icon fix
- */
-#toplevel_page_hostjane-admin-index img {
-    width: 20px !important;
-    padding: 7px !important;
-    opacity: 0.9 !important;
-}
-
-/**
  * Admin styles
  */
 .hostjane-admin {

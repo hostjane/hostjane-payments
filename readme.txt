@@ -4,7 +4,7 @@ Tags: payments, paypal, stripe, apple pay, google pay, send money, cash, accept 
 Requires at least: 4.7
 Tested up to: 5.9
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,12 @@ Whether you're creating: web and mobile development, software, art and animation
 
 = 1.0.0 =
 Latest version for HostJane payments plugin for WordPress by Team HostJane
+
+= 1.0.1 =
+Bug fixes
+
+= 1.0.2 =
+Add icon.png, updating typo
 
 == Installation ==
 Installing widget (one-time step)

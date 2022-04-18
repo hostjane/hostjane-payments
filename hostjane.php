@@ -3,13 +3,22 @@
  * Plugin Name: Tip My Work - HostJane Payments
  * Plugin URI: https://www.hostjane.com/
  * Description: Accept tips for your work in a fast and convenient way. Instant payments via Stripe and PayPal to your HostJane account.
- * Version: 1.0.0
+ * Version: 1.0.2
  * Author: HostJane
  * Author URI: https://www.hostjane.com/about
  */
 
-define('HOSTJANE_PLUGIN_VERSION', '1.0.0');
+define('HOSTJANE_PLUGIN_VERSION', '1.0.2');
 define('HOSTJANE_URL', 'https://www.hostjane.com/marketplace/');
+
+/**
+ * Including admin panel page
+ * @return void
+ */
+function hostjane_includeAdminPage()
+{
+    include(plugin_dir_path(__FILE__).'/admin/index.php');
+}
 
 /**
  * SVG code for used logo
@@ -125,9 +134,9 @@ function hostjane_addAdminLink()
         __('HostJane Tips', 'hostjane'),
         'HostJane Tips',
         'manage_options',
-        'hostjane/admin/index.php',
-        '',
-        plugins_url('/assets/hostjane.png', __FILE__),
+        'includeAdminPage',
+        'hostjane_includeAdminPage',
+        plugins_url('/assets/icon.png', __FILE__),
         99
     );
 }
@@ -144,7 +153,7 @@ function hostjane_addTipButton()
     if ($plugin->enabled && ! isset($_REQUEST['disable_tip'])) {
         echo "
             <div class='hostjane-plugin hostjane-".esc_html($plugin->theme)."-theme'
-                style='bottom: ".esc_html($plugin->bottom_spacing)."px; ".esc_html($plugin->align).": ".esc_html($plugin->bottom_spacing)."px;'>
+                style='bottom: ".esc_html($plugin->bottom_spacing)."px; ".esc_html($plugin->align).": ".esc_html($plugin->side_spacing)."px;'>
                 <div class='hostjane-plugin-container ".$is_left_sided."'>
                     <span class='hostjane-plugin-container-title'>Tip me on HostJane</span>
                     <div class='hostjane-tip-container-main'>

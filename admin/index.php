@@ -21,7 +21,7 @@ $themes = hostjane_getThemes();
                         <span id="studio_avatar"></span>
                         <input type="text" name="username" placeholder="Enter username" value="<?php if ($plugin) { echo esc_html($plugin->username); } ?>" required>
                     </div>
-                    <span class="help help-danger" id="studio_doesnot_exists">This user does not exists.</span>
+                    <span class="help help-danger" id="studio_doesnot_exists">This user does not exist.</span>
                     <span class="help">You must register free as a seller on HostJane to accept tips. <a href="https://www.hostjane.com/sell" target="_blank">Open a studio</a> to start selling your skill today.</span>
                 </div>
 
@@ -85,7 +85,7 @@ $themes = hostjane_getThemes();
             <iframe id="preview" src="<?php echo get_site_url(); ?>?disable_tip=true"></iframe>
 
             <div class="hostjane-plugin hostjane-<?php echo esc_html($plugin->theme); ?>-theme"
-                style="position: absolute !important; bottom: <?php echo esc_html($plugin->bottom_spacing); ?>px; <?php echo esc_html($plugin->align); ?>: <?php echo esc_html($plugin->bottom_spacing); ?>px;">
+                style="position: absolute !important; bottom: <?php echo esc_html($plugin->bottom_spacing); ?>px; <?php echo esc_html($plugin->align); ?>: <?php echo esc_html($plugin->side_spacing); ?>px;">
                 <div class="hostjane-plugin-container opened <?php if ($plugin->align == 'left') { ?>left-sided<?php } ?>" style="border-radius: <?php echo esc_html($plugin->border_radius); ?>px;">
                     <span class="hostjane-plugin-container-title">Tip me on HostJane</span>
                     <div class="hostjane-tip-container-main">
