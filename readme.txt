@@ -2,7 +2,7 @@
 Contributors: hostjane
 Tags: payments, paypal, stripe, apple pay, google pay, send money, cash, accept cards, cart, checkout, donations, e-commerce
 Requires at least: 4.7
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 7.0
 Stable tag: 1.0.2
 License: GPLv2 or later
